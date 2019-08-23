@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: RGB(35,35,35);
+    color:#fff;
+}
+
+/* #create_new{
+    position: absolute;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+}
+.user_input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid aqua;
+    width: 50px;
+    font-weight: lighter;
+} */
+
+
+
+.edit-music-node{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    
+    position: absolute
+}
+.edit-music-zone{
+    border-radius: 50%;
+ 
+    
+    position: absolute
+}
+.edit-music-listener{
+    position: absolute
+}
