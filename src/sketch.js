@@ -1,4 +1,5 @@
 
+
 function setup() {
     createCanvas(WIDTH, HEIGHT);
 }
@@ -12,54 +13,14 @@ function draw() {
     clear()
     listOfAtoms.forEach(x => {
         x.create();
+        x.collisionCheck(listOfAtoms);
     });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//################################## DISTANCE HELPER FUNCTION ######################
-
-
-
-
-// const distance = (a, b) => {
-    //     return Math.sqrt((a.position[0] - b.position[0]) ** 2 + (a.position[1] - b.position[1]) ** 2)
-    // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const distance = (a, b) => {
+    // euclidean distance = sqrt( (x1 - x2)^2 + (y1 - y2)^2 )
+    return Math.sqrt((a.position[0] - b.position[0]) ** 2 + (a.position[1] - b.position[1]) ** 2)
+}
 
 
 
