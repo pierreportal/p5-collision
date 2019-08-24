@@ -115,7 +115,7 @@ distance = (a,b) => {
 
 ## Step 5 - Detect
 
-We can draw a line between atoms when they detect each other. the weight of the line can be constant or can depend of the distance. Let's make it bigger when the atoms are closer. Finally the atom will pass its color to the other artom.
+We can draw a line between atoms when they detect each other. the weight of the line can be constant or can depend of the distance. Let's make it bigger when the atoms are closer. Finally the atom will pass its color to the detected atom.
 
 In the Atom class :
 ```js
