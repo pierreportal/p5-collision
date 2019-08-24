@@ -32,7 +32,7 @@ const detectionDistance = 100;
 
 ## Step 1 - Our Atom class
 
-<p>The Atom class is the plueprint of each atom. in its <code>constructor</code> We give the random position, radius (size), the color and the random rate which defines the random movement in the 2d space. The <code>move</code> function creates the movement and the <code>create</code> function draw the atom.</p>
+<p>The Atom class is the plueprint of each atom. in its <code>constructor</code> We give the random position, radius (size), the color and the random rate which defines the random movement in the 2d space. The <code>move</code> function creates the movement and the <code>create</code> function draws the atom.</p>
 
 In a new <b><code>atom.js</code></b> file :
 
